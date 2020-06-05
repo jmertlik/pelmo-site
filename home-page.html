@@ -1,0 +1,286 @@
+<style>
+    #full-wrapper{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='3457.97' height='3821.596' viewBox='0 0 3457.97 3821.596'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 { fill: %23f4b942; opacity: 0.1; } %3C/style%3E%3C/defs%3E%3Crect id='Rectangle_67' data-name='Rectangle 67' class='cls-1' width='4423' height='737' transform='matrix(0.656, 0.755, -0.755, 0.656, 556.221, 0)'/%3E%3C/svg%3E");
+        background-size: 150%;
+        background-position: 50% -60%;
+    }
+
+    .classic-section{
+        max-width: 960px; 
+        margin-left: auto; 
+        margin-right: auto; 
+        padding-top: 120px;
+    }
+
+    .flex-box{
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+    }
+
+    .height-set{
+        height: 100vh;
+        padding-top: 0px;
+        justify-content: center; 
+    }
+    
+    #hero-img{
+        background-image: url("https://i.ibb.co/HVt2DCj/woman-in-office-2048x-min.jpg");
+        background-size: cover;
+        height: 77%;
+        width: 65%;
+    }
+    #hero-text-wrap{
+        background-color: #226192; 
+        height: 72%; 
+        width: 50%; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: flex-start;
+        padding: 0em 1.5em;
+    }
+
+    .cta-button{
+        padding: 7px 13px;
+        border: 0px;
+    }
+
+    .primary{
+        background-color: #3EA384;
+        color: white;
+        margin-right: 5px;
+    }
+
+    .secondary{
+        background-color: rgba(62, 163, 133, 0.66);
+        color: white;
+    }
+
+    #overall-steps-wrapper{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .double-steps-wrapper{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .step-wrapper{
+        display: flex;
+        flex-direction: column;
+        background-color: #226192;
+        box-shadow: 10px 10px 0px 0px rgba(244,185,66,1);
+        position: relative;
+        padding: 25px;
+        width: 170px;
+        margin-right:25px;
+        margin-top: 25px;
+    }
+
+    .is-first{
+        margin-right:0px;
+    }
+
+    .is-last{
+        margin-right:0px;
+    }
+
+    .step-number{
+        color: #6B9AC5;
+        font-size: 7em;
+        margin: 0px;
+        position: relative;
+        top:-36px;
+        left: -20px;
+    }
+
+    .is-white{
+        color: white;
+    }
+
+    .is-centered{
+        text-align: center;
+    }
+
+    #overall-benefit-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440.935' height='760.801' viewBox='0 0 1440.935 760.801'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 { fill: %23f4b942; } %3C/style%3E%3C/defs%3E%3Cpath id='Path_184' data-name='Path 184' class='cls-1' d='M-340.938-162.183,1100-36.809,957.418,537.047-186.133,598.617Z' transform='translate(340.938 162.183)'/%3E%3C/svg%3E");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+
+    .benefit-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .benefit-box{
+        background-color: #226192;
+        padding: 25px;
+        margin-bottom: 25px;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bottom-row{
+        margin-bottom: 0px;
+        margin-top: 25px;
+    }
+
+    .right-aligned{
+        text-align: right;
+    }
+
+    .sample-test-wrapper{
+        display: flex;
+    }
+
+    #cmp-img{
+        width: 100%;
+    }
+
+    #video-container{
+        width: 30%; 
+        text-align: left;
+    }
+
+    @media only screen and (max-width: 600px) {
+        #video-container{
+        width: 60%; 
+        text-align: left;
+        }
+        .height-set{
+        flex-direction: column;  
+        }
+        #hero-img{
+            width: 100%;
+        }
+        #hero-text-wrap{
+            width: 100%;
+        }
+    }
+
+</style>
+
+<div id="full-wrapper">
+    <section class="classic-section height-set flex-box">
+        <div id="hero-img">
+        </div>
+        <div id="hero-text-wrap">
+            <h1 style="color: white;">Confidently prove your English proficiency</h1>
+            <h3 style="color: white;">PELMO – Proof of English Language Mastery Online. Guaranteed accuracy.</h3>
+            <div class="display: flex;">
+                <button class="cta-button primary"> Buy the test </button>
+                <button class="cta-button secondary"> Try a practice test for free </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="classic-section">
+        <h2 class="is-centered">How does it work?</h2>
+
+        <div id="overall-steps-wrapper">
+            <div class="double-steps-wrapper">
+                <div class="step-wrapper">
+                    <h1 class="step-number">1</h1>
+                    <h3 class="is-white">Purchase the test</h2>
+                    <p class="is-white">Buy the test here:</p>
+                </div>
+                <div class="step-wrapper">
+                    <h1 class="step-number">2</h1>
+                    <h3 class="is-white">Recieve test link</h2>
+                    <p class="is-white">An email will be sent to you with a secure test link immediately upon purchase of the test.</p>
+                </div>
+            </div>
+            <div class="double-steps-wrapper">
+                <div class="step-wrapper">
+                    <h1 class="step-number">3</h1>
+                    <h3 class="is-white">Do the test when you are ready</h2>
+                    <p class="is-white">You can choose to complete the test at any time after you receive the link.</p>
+                </div>
+                <div class="step-wrapper is-last">
+                    <h1 class="step-number">4</h1>
+                    <h3 class="is-white">Tell us where you want your results sent</h2>
+                    <p class="is-white">We will send your test results to schools within 48 hours for free.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="classic-section">
+    <h2 class="is-centered">Why is the PELMO Assessment better?</h2>
+
+        <div id="overall-benefit-wrapper">
+            <div class="benefit-wrapper">
+                <div class="benefit-box"> 
+                    <h3 class="is-white">Fully Online</h3>
+                    <p style="width: 90%;" class="is-white">Easy to understand instructions, 100% secure.</p>
+                </div>
+                <div class="benefit-box right-aligned"> 
+                    <h3 class="is-white">Stress free</h3>
+                    <p style="width: 90%; align-self: flex-end;" class="is-white">No traveling to test centers. Take the test from the comfort of your own home. </p>
+                </div>
+            </div>
+
+            <img style="
+            width: 40%; 
+            position: absolute; 
+            display:block;
+            top: 0;
+            left:0;
+            right:0;
+            bottom:0;
+            margin:auto;" 
+            src="https://i.ibb.co/kGPd60t/mac-pelmo.png" alt="mac-pelmo" border="0">
+
+            <div class="benefit-wrapper">
+                <div class="benefit-box bottom-row"> 
+                    <h3 class="is-white">You are in control</h3>
+                    <p style="width: 90%;" class="is-white">You choose the best time to take the test. You can even choose some of the questions you answer!</p>
+                </div>
+                <div class="benefit-box bottom-row right-aligned"> 
+                    <h3 class="is-white">Student support</h3>
+                    <p style="width: 90%; align-self: flex-end;" class="is-white">Want to speak to a PELMO English Trainer before you do the test? We can help you start thinking in English, helping you to achieve the highest score possible!</p>
+                </div>
+            </div>
+        </div> 
+
+    </section>
+
+    <section class="classic-section">
+        <h2 class="is-centered">Ready to try it out for yourself?</h2>
+        <div class="sample-test-wrapper">
+            <div id="computer-part">
+                <img id="cmp-img" src="https://i.ibb.co/kGPd60t/mac-pelmo.png" alt="mac-pelmo" border="0">
+            </div>
+            <div id="form-part">
+                <h3>We want you to be 100% confident. </h3>
+                <p>Try a sample test. We will send you feedback on your results so you can do your absolute best on the real thing!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="classic-section">
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-evenly;">
+            <div style="width: 40%; min-width: 350px; text-align: right; display: flex; flex-direction:column; justify-content: center;">
+                <h2>Join one of the many students having the best English proficiency testing experience!</h2>
+                <p>We understand the stress you feel while trying to achieve your dreams of attending a secondary or post-secondary school abroad. That’s why we created PELMO. </p>
+            </div>
+            <div id="video-container">
+                <script src="https://fast.wistia.com/embed/medias/p716fepizf.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:177.92% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_p716fepizf videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/p716fepizf/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>            
+            </div>
+    </section>
+</div>
