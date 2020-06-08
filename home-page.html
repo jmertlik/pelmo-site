@@ -136,6 +136,16 @@
         justify-content: center;
     }
 
+    #benefit-img{
+            width: 40%; 
+            position: absolute; 
+            display:block;
+            top: 0;
+            left:0;
+            right:0;
+            bottom:0;
+            margin:auto;
+    }
     .bottom-row{
         margin-bottom: 0px;
         margin-top: 25px;
@@ -184,7 +194,32 @@
         .sub{
            width: 60%;
         }
+        .benefit-box{
+            width: 35%;
+        }
     }
+
+    @media only screen and (max-width: 500px) {
+        #benefit-img{
+            display: none;
+        }
+        .benefit-box{
+            width: 37%;
+            margin-bottom: 10px;
+        }
+        
+        
+    }
+
+    @media only screen and (max-width: 450px) {
+        .step-wrapper{
+            margin-right: 0px;
+        }
+        .benefit-box{
+            width: 35%;
+        }
+    }
+
 
 </style>
 
@@ -249,16 +284,7 @@
                 </div>
             </div>
 
-            <img style="
-            width: 40%; 
-            position: absolute; 
-            display:block;
-            top: 0;
-            left:0;
-            right:0;
-            bottom:0;
-            margin:auto;" 
-            src="https://i.ibb.co/kGPd60t/mac-pelmo.png" alt="mac-pelmo" border="0">
+            <img id="benefit-img" src="https://i.ibb.co/kGPd60t/mac-pelmo.png" alt="mac-pelmo" border="0">
 
             <div class="benefit-wrapper">
                 <div class="benefit-box bottom-row"> 
