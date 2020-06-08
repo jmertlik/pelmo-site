@@ -44,8 +44,10 @@
     }
 
     .cta-button{
-        padding: 7px 13px;
+        padding: 15px 25px;
         border: 0px;
+        max-width: 250px;
+        margin-top: 20px;
     }
 
     .primary{
@@ -168,8 +170,24 @@
         text-align: left;
     }
 
+    #form-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        margin-bottom: 25px;
+        padding-left: 15px;
+    }
+
+    #sample-text{
+        width: 70%;
+    }
+
     /* responsivness */
     @media only screen and (max-width: 600px) {
+        #sample-text{
+            width: 100%;
+        }
+
         #video-container{
         width: 60%; 
         text-align: left;
@@ -197,6 +215,11 @@
         .benefit-box{
             width: 35%;
         }
+
+        #cmp-img{
+            width: 500px;
+            margin-left: -250px;
+        }
     }
 
     @media only screen and (max-width: 500px) {
@@ -204,10 +227,14 @@
             display: none;
         }
         .benefit-box{
-            width: 37%;
+            width: 40%;
             margin-bottom: 10px;
+            padding: 15px;
         }
-        
+        #cmp-img{
+            width: 450px;
+            margin-left: -250px;
+        }
         
     }
 
@@ -215,8 +242,9 @@
         .step-wrapper{
             margin-right: 0px;
         }
-        .benefit-box{
-            width: 35%;
+        #cmp-img{
+            width: 400px;
+            margin-left: -260px;
         }
     }
 
@@ -307,8 +335,9 @@
                 <img id="cmp-img" src="https://i.ibb.co/kGPd60t/mac-pelmo.png" alt="mac-pelmo" border="0">
             </div>
             <div id="form-part">
-                <h3>We want you to be 100% confident. </h3>
-                <p>Try a sample test. We will send you feedback on your results so you can do your absolute best on the real thing!</p>
+                <h3 style="margin-top: 0px;">We want you to be 100% confident. </h3>
+                <p id="sample-text">Try a sample test. We will send you feedback on your results so you can do your absolute best on the real thing!</p>
+                <button class="cta-button secondary"> Try a practice test for free </button>
             </div>
         </div>
     </section>
